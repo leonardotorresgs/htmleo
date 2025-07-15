@@ -12,8 +12,8 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
-    background: radial-gradient(
-        circle at top left,
+    background: linear-gradient(
+        135deg,
         #cce5f5,
         #f4f4f4,
         #fbe4f0
@@ -85,7 +85,7 @@ aside {
     margin: 0px 50px;
 }
 
-aside ul {
+.list-items {
     padding: 0 10px 0 40px;
 }
 
@@ -106,4 +106,13 @@ footer {
     color: #F7F5EC;
     margin-top: 5rem;
     text-align: center;
+}
+
+/* --- front-css-flexbox --- */
+
+#img-flexbox {
+    border: 1px solid gray;
+    width: 100%;
+    max-width: 40rem;
+    margin-top: 20px;
 }
