@@ -11,6 +11,10 @@
 <body>
     <header>
         <h1>htmLeo</h1>
+
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="hamburguer">&#9776</label>
+
         <nav>
             <ul>
                 <li><a href="index.html">Início</a></li>
@@ -33,18 +37,34 @@
                 <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam dolor id iusto modi voluptas aliquam in aut, molestiae cumque? Aliquid magnam omnis odio soluta rem harum nulla. Dolore, voluptatem accusamus! Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore similique eligendi odit nemo, ex rerum explicabo sapiente ipsam, impedit aspernatur autem quaerat veritatis est quasi accusantium tempore, animi dolore. Consectetur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis molestiae, architecto hic quia quis autem inventore, assumenda ab reprehenderit quos placeat quo nobis repellat optio excepturi consequuntur provident recusandae enim.</p>
             </section>
         </main>
-        <aside>
-            <div class="color-icons">
-                <i class="fa-solid fa-circle" style="color: #eac7c7;"></i>
-                <i class="fa-solid fa-circle" style="color: #A0C3D2;"></i>
-                <i class="fa-solid fa-circle" style="color: #F1E2B2;"></i>
-            </div>
-            <ul class="list-items">
-                <li><a href="posts/front-css-flexbox.html">Flexbox</a></li>
-                <li><a href="#">artigo 2</a></li>
-                <li><a href="#">artigo 3</a></li>
-            </ul>
-        </aside>
+        <div id="aside-box">
+            <aside>
+                <div class="color-icons">
+                    <i class="fa-solid fa-circle" style="color: #eac7c7;"></i>
+                    <i class="fa-solid fa-circle" style="color: #A0C3D2;"></i>
+                    <i class="fa-solid fa-circle" style="color: #F1E2B2;"></i>
+                </div>
+                <h3 class="aside-title">O básico de cada linguagem</h3>
+                <ul class="list-items">
+                    <li><a href="#">JavaScript</a></li>
+                    <li><a href="#">Python</a></li>
+                    <li><a href="#">Java</a></li>
+                    <li><a href="#">C++</a></li>
+                </ul>
+            </aside>
+            <aside>
+                <div class="color-icons">
+                    <i class="fa-solid fa-circle" style="color: #eac7c7;"></i>
+                    <i class="fa-solid fa-circle" style="color: #A0C3D2;"></i>
+                    <i class="fa-solid fa-circle" style="color: #F1E2B2;"></i>
+                </div>
+                <ul class="list-items">
+                    <li><a href="posts/front-css-flexbox.html">Flexbox</a></li>
+                    <li><a href="#">artigo 2</a></li>
+                    <li><a href="#">artigo 3</a></li>
+                </ul>
+            </aside>
+        </div>
     </div>
 
     <footer>
